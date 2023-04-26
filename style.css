@@ -65,6 +65,10 @@ a.anchor-button-animated {
   border-radius: 4px;
 }
 
+.icon-link {
+  font-size: 32px;
+}
+
 a:hover {
   color: #E38B29;
   transition: 0.3s;
