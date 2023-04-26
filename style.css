@@ -47,9 +47,10 @@ h2 {
 }
 
 .text-block {
-  margin-left: 64px;
-  margin-right: 64px;
-  text-align: left;
+  display: block;
+  text-align: justify;
+  margin: 0;
+  padding: 16px;
 
 }
 a {
@@ -102,6 +103,6 @@ ul.no-bullets li {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 400px;
   }
 }
